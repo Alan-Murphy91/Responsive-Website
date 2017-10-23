@@ -10,7 +10,7 @@
   display: inline-block;
 }
 
-.hamburger-menu-wrapper.bounce-effect { animation: bounce 0.3s ease 1; }
+.hamburger-menu-wrapper.bounce-effect { -webkit-animation: bounce 0.3s ease 1; animation: bounce 0.3s ease 1; }
 
 .hamburger-menu {
   border: 0;
@@ -56,40 +56,71 @@
 .hamburger-menu span:after { bottom: -7px; }
 
 .hamburger-menu span:before, .hamburger-menu span:after {
-  transition-duration: 0.3s, 0.3s;
-  transition-delay: 0.3s, 0s;
+  -webkit-transition-duration: 0.3s, 0.3s;
+       -o-transition-duration: 0.3s, 0.3s;
+          transition-duration: 0.3s, 0.3s;
+  -webkit-transition-delay: 0.3s, 0s;
+       -o-transition-delay: 0.3s, 0s;
+          transition-delay: 0.3s, 0s;
 }
 
-.hamburger-menu span:before { transition-property: top, transform; }
+.hamburger-menu span:before { -webkit-transition-property: top, -webkit-transform; transition-property: top, -webkit-transform; -o-transition-property: top, transform; transition-property: top, transform; transition-property: top, transform, -webkit-transform; }
 
-.hamburger-menu span::after { transition-property: bottom, transform; }
+.hamburger-menu span::after { -webkit-transition-property: bottom, -webkit-transform; transition-property: bottom, -webkit-transform; -o-transition-property: bottom, transform; transition-property: bottom, transform; transition-property: bottom, transform, -webkit-transform; }
 
 .hamburger-menu.active span { background: none; }
 
 .hamburger-menu.active span:before {
   top: 0;
-  transform: rotate(225deg);
+  -webkit-transform: rotate(225deg);
+      -ms-transform: rotate(225deg);
+          transform: rotate(225deg);
 }
 
 .hamburger-menu.active span:after {
   bottom: 0;
-  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+      -ms-transform: rotate(135deg);
+          transform: rotate(135deg);
 }
 
-.hamburger-menu.active span:before, .hamburger-menu.active span:after { transition-delay: 0s, 0.3s; }
+.hamburger-menu.active span:before, .hamburger-menu.active span:after { -webkit-transition-delay: 0s, 0.3s; -o-transition-delay: 0s, 0.3s; transition-delay: 0s, 0.3s; }
+
+@-webkit-keyframes 
+bounce { 0% {
+ -webkit-transform: rotate(0);
+         transform: rotate(0);
+}
+ 45% {
+ -webkit-transform: rotate(15deg);
+         transform: rotate(15deg);
+}
+ 90% {
+ -webkit-transform: rotate(-7deg);
+         transform: rotate(-7deg);
+}
+ 100% {
+ -webkit-transform: rotate(0);
+         transform: rotate(0);
+}
+}
 
 @keyframes 
 bounce { 0% {
- transform: rotate(0);
+ -webkit-transform: rotate(0);
+         transform: rotate(0);
 }
  45% {
- transform: rotate(15deg);
+ -webkit-transform: rotate(15deg);
+         transform: rotate(15deg);
 }
  90% {
- transform: rotate(-7deg);
+ -webkit-transform: rotate(-7deg);
+         transform: rotate(-7deg);
 }
  100% {
- transform: rotate(0);
+ -webkit-transform: rotate(0);
+         transform: rotate(0);
 }
 }
 
@@ -114,12 +145,16 @@ bounce { 0% {
   font-size: 18px;
   display: inline-block;
   margin: 15px 0;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 
 .menu-list a:hover { color: #02D5FD; }
 
 .menu-overlay {
+  -webkit-transition: margin 300ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
+  -o-transition: margin 300ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
   transition: margin 300ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
   display: none;
   position: absolute;
@@ -132,6 +167,8 @@ bounce { 0% {
 }
 
 .menu-overlay {
+  -webkit-transition: margin 300ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
+  -o-transition: margin 300ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
   transition: margin 300ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
   display: none;
   position: absolute;

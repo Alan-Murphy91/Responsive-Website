@@ -72,7 +72,8 @@
     
     header .herocontent .fa {
         color: white;
-        animation: move 3s infinite;
+        -webkit-animation: move 3s infinite;
+                animation: move 3s infinite;
     }  
     
     .second {
@@ -264,21 +265,38 @@
     
     
     
-    @keyframes move {
+    @-webkit-keyframes move {
   0%, 20%, 50%, 80%, 100% {
-    -moz-transform: translateY(0);
     -ms-transform: translateY(0);
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
   40% {
-    -moz-transform: translateY(-20px);
     -ms-transform: translateY(-20px);
     -webkit-transform: translateY(-20px);
     transform: translateY(-20px);
   }
   60% {
-    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}    
+    
+    
+    
+    @keyframes move {
+  0%, 20%, 50%, 80%, 100% {
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -ms-transform: translateY(-20px);
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+  60% {
     -ms-transform: translateY(-10px);
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px);
@@ -351,7 +369,8 @@
     
     header .herocontent .fa {
         color: white;
-        animation: move 3s infinite;
+        -webkit-animation: move 3s infinite;
+                animation: move 3s infinite;
     }  
     
     .second {
@@ -562,21 +581,51 @@
     
     
     
-    @keyframes move {
+    @-webkit-keyframes move {
   0%, 20%, 50%, 80%, 100% {
-    -moz-transform: translateY(0);
     -ms-transform: translateY(0);
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
   40% {
-    -moz-transform: translateY(-20px);
     -ms-transform: translateY(-20px);
     -webkit-transform: translateY(-20px);
     transform: translateY(-20px);
   }
   60% {
-    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @keyframes move {
+  0%, 20%, 50%, 80%, 100% {
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -ms-transform: translateY(-20px);
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+  60% {
     -ms-transform: translateY(-10px);
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px);
@@ -654,7 +703,8 @@
     
     header .herocontent .fa {
         color: white;
-        animation: move 3s infinite;
+        -webkit-animation: move 3s infinite;
+                animation: move 3s infinite;
     }  
     
     .second {
@@ -852,21 +902,38 @@
      
     
     
-    @keyframes move {
+    @-webkit-keyframes move {
   0%, 20%, 50%, 80%, 100% {
-    -moz-transform: translateY(0);
     -ms-transform: translateY(0);
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
   40% {
-    -moz-transform: translateY(-20px);
     -ms-transform: translateY(-20px);
     -webkit-transform: translateY(-20px);
     transform: translateY(-20px);
   }
   60% {
-    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}    
+     
+    
+    
+    @keyframes move {
+  0%, 20%, 50%, 80%, 100% {
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -ms-transform: translateY(-20px);
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+  60% {
     -ms-transform: translateY(-10px);
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px);
@@ -938,7 +1005,8 @@
     
     header .herocontent .fa {
         color: white;
-        animation: move 3s infinite;
+        -webkit-animation: move 3s infinite;
+                animation: move 3s infinite;
     }  
     
     .second {
@@ -1136,21 +1204,38 @@
      
     
     
-    @keyframes move {
+    @-webkit-keyframes move {
   0%, 20%, 50%, 80%, 100% {
-    -moz-transform: translateY(0);
     -ms-transform: translateY(0);
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
   40% {
-    -moz-transform: translateY(-20px);
     -ms-transform: translateY(-20px);
     -webkit-transform: translateY(-20px);
     transform: translateY(-20px);
   }
   60% {
-    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}    
+     
+    
+    
+    @keyframes move {
+  0%, 20%, 50%, 80%, 100% {
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -ms-transform: translateY(-20px);
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+  60% {
     -ms-transform: translateY(-10px);
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px);
@@ -1222,7 +1307,8 @@
     
     header .herocontent .fa {
         color: white;
-        animation: move 3s infinite;
+        -webkit-animation: move 3s infinite;
+                animation: move 3s infinite;
     }  
     
     .second {
@@ -1420,21 +1506,38 @@
      
     
     
-    @keyframes move {
+    @-webkit-keyframes move {
   0%, 20%, 50%, 80%, 100% {
-    -moz-transform: translateY(0);
     -ms-transform: translateY(0);
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
   40% {
-    -moz-transform: translateY(-20px);
     -ms-transform: translateY(-20px);
     -webkit-transform: translateY(-20px);
     transform: translateY(-20px);
   }
   60% {
-    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}    
+     
+    
+    
+    @keyframes move {
+  0%, 20%, 50%, 80%, 100% {
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -ms-transform: translateY(-20px);
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+  60% {
     -ms-transform: translateY(-10px);
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px);
@@ -1508,7 +1611,8 @@
     
     header .herocontent .fa {
         color: white;
-        animation: move 3s infinite;
+        -webkit-animation: move 3s infinite;
+                animation: move 3s infinite;
     }  
     
     .second {
@@ -1708,21 +1812,38 @@
      
     
     
-    @keyframes move {
+    @-webkit-keyframes move {
   0%, 20%, 50%, 80%, 100% {
-    -moz-transform: translateY(0);
     -ms-transform: translateY(0);
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
   40% {
-    -moz-transform: translateY(-20px);
     -ms-transform: translateY(-20px);
     -webkit-transform: translateY(-20px);
     transform: translateY(-20px);
   }
   60% {
-    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}    
+     
+    
+    
+    @keyframes move {
+  0%, 20%, 50%, 80%, 100% {
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -ms-transform: translateY(-20px);
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+  60% {
     -ms-transform: translateY(-10px);
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px);
@@ -1735,4 +1856,4 @@
 
 
 
-/*Burger graphic by <a href="https://thenounproject.com/tipografico">tnp_tipografico</a> from <a href="https://thenounproject.com/">TheNounProject</a> is licensed under <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a>. Check out the new logo that I created on <a href="http://logomakr.com" title="Logo Maker">LogoMaker.com</a> https://logomakr.com/0NFyVm0NFyVm*/
+/*Burger graphic by <a href="https://thenounproject.com/tipografico">tnp_tipografico</a> from <a href="https://thenounproject.com/">TheNounProject</a> is licensed under <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a>. Check out the new logo that I created on <a href="http://logomakr.com" title="Logo Maker">LogoMaker.com</a> https://logo
