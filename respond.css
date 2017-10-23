@@ -27,6 +27,7 @@
   z-index: 9999;
   cursor: pointer;
   background: transparent;
+
 }
 
 .hamburger-menu:focus { outline: none; }
@@ -162,7 +163,8 @@ bounce { 0% {
   bottom: 0;
   right: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.6);
+/*  background: rgba(0, 0, 0, 0.6);*/
+      background: #111440;
   z-index: 1111;
 }
 
@@ -176,6 +178,7 @@ bounce { 0% {
   bottom: 0;
   right: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.6);
+/*  background: rgba(0, 0, 0, 0.6);*/
+      background: #111440;
   z-index: 1111;
 }
