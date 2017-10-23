@@ -1605,8 +1605,8 @@
         color: white;
         font-family: 'Orbitron';
         margin-top: 1vh;
-        padding-left: 1vh;
-        padding-right: 1vh;
+/*        padding-left: 1vh;*/
+/*        padding-right: 1vh;*/
     }
     
     header .herocontent .fa {
@@ -1620,6 +1620,7 @@
 /*        background: #060733;*/
         border: 0;
         padding: 0;
+        font-size: 0.75em;
     }
     
     .second section {
@@ -1658,11 +1659,12 @@
     .third {
         height: 100vh;
         background: url(img/okosvarosok-kora.jpg)no-repeat center center fixed;
-        margin-top: 410vh;
+        margin-top: 300vh;
         padding-bottom: 150vh;
         font-family: 'Orbitron';
         color: white;
-        text-shadow: 2px 2px 2px rgba(0,0,0,0.2);        
+        text-shadow: 2px 2px 2px rgba(0,0,0,0.2); 
+        font-size: 0.75em;
     }
     
     .third .container {
@@ -1676,7 +1678,7 @@
         margin: 0 auto;
         border-radius: 15px;
         background: #121212;
-        font-size: 0.5em;
+        font-size: 0.75em;
     } 
     
     .third .container .tab .first {
@@ -1701,8 +1703,8 @@
     }
     
     .third .container .dest .fa {
-        padding-left: 1vh;
-        padding-right: 1vh;
+/*        padding-left: 1vh;*/
+/*        padding-right: 1vh;*/
     }    
     
     .third .container .btn {
