@@ -385,7 +385,7 @@
     height: 75vh;
 }
 
-#page5 .main .form {
+#page5 .main .formb {
     display: grid;
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -396,7 +396,7 @@
     margin-right: 10vh;
 }
 
-#page5 .main .form .formGrp {
+#page5 .main .formb .formGrpb {
     width: 30vh;
     border: 1px solid #2084E6;
     border-radius: 15px;
@@ -404,20 +404,20 @@
     background: rgba(11,61,150,0.3);
 }
 
-#page5 .main .form .formGrp .flabel {
+#page5 .main .formb .formGrpb .flabel {
     font-size: 10px;
 }
 
-#page5 .main .form .formGrp .slabel {
+#page5 .main .formb .formGrpb .slabel {
     font-size: 10px;
 }
 
-#page5 .main .form .formGrp p {
+#page5 .main .formb .formGrpb p {
     padding: 0;
     margin: 0;
 }
 
-#page5 .main .form .formGrp input[type=text] {
+#page5 .main .formb .formGrpb input[type=textb] {
     height: 3vh;
     width: 12vh;
     margin-right: 2vh;
@@ -425,11 +425,11 @@
     font-family: 'Orbitron';
 }
 
-#page5 .main .form .formGrp .slabel {
+#page5 .main .formb .formGrpb .slabel {
     margin-left: 6vh;
 }
 
-#page5 .main .form .formGrp input[type=texts] {
+#page5 .main .formb .formGrpb input[type=textsb] {
     height: 3vh;
     width: 26vh;
     margin-right: 2vh;
@@ -437,7 +437,7 @@
     font-family: 'Orbitron';
 }
 
-#page5 .main .form .formGrp input[type=textm] {
+#page5 .main .formb .formGrpb input[type=textmb] {
     height: 9vh;
     width: 26vh;
     margin-right: 2vh;
@@ -445,7 +445,7 @@
     font-family: 'Orbitron';
 }
 
-#page5 .main .form .formGrp .submit {
+#page5 .main .formb .formGrpb .submitb {
     height: 3vh;
     width: 12vh;
     border-radius: 8px;
@@ -462,7 +462,7 @@
     display: inline-block;
 }
 
-#page5 .main .form .formGrp .submit:hover {
+#page5 .main .formb .formGrpb .submitb:hover {
     -webkit-filter: brightness(110%);
             filter: brightness(110%);
 }
