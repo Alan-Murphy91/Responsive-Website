@@ -2,17 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed');
 
 
-
-
-
-
-
-
-
-
-
-
-
 /*--------------------------Standard responsive display--------------------------------*/
 @media screen and (max-width: 948px) {
     
@@ -1855,6 +1844,672 @@
     
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------Galaxy S5-------------------------*/
+@media screen and (min-height: 610px) and (max-height: 645px) and (max-width: 370px) {
+    
+.fp-section,
+.fp-slide,
+.fp-tableCell{
+    height: auto !important;
+}
+    
+    body {
+        background: url(img/backgroundofspace.jpg) center center fixed;
+        background-repeat: repeat-y;
+        height: 100vh;
+    }        
+    
+    
+    .desktopx {
+        display: none;
+    }
+    
+    .container ul {
+        list-style: none;
+    }
+    
+    .container ul li {
+        padding-top: 0.5vh;
+        padding-bottom: 0.5vh;        
+    }
+    
+    .container ul li a {
+        color: inherit;
+        text-decoration: none;
+    }
+    
+    .container .burger-nav {
+        background-color: #404040;
+    }
+    
+    header {
+        height: 100vh;
+        background: url(img/Elysium-Space-Stars.jpg)no-repeat center center fixed;  
+        background-size: cover;
+    }
+    
+    header .fix {
+        position: fixed;
+    }
+    
+    header .herocontent {
+        text-align: center;
+        color: white;
+        font-family: 'Orbitron';
+        margin-top: 25vh;
+        padding-left: 1vh;
+        padding-right: 1vh;
+    }
+    
+    header .herocontent .fa {
+        color: white;
+        -webkit-animation: move 3s infinite;
+                animation: move 3s infinite;
+    }  
+    
+    .second {
+        height: 100vh;
+/*        background: #060733;*/
+        border: 0;
+        padding: 0;
+    }
+    
+    .second section {
+        text-align: center;
+        color: white;
+        font-family: 'Orbitron';
+    }
+    
+    .second .gallery {
+        text-align: center;
+        border: 1px solid #2084E6;
+        border-radius: 15px;
+        margin-left: 3vh;
+        margin-right: 3vh;
+        background: rgba(18,18,18,0.5);
+        margin-bottom: 1vh;
+        color: white;
+        font-family: 'orbitron';
+    }
+
+    .second .gallery hr {
+        width: 20vh;
+        border-color: #2084E6;
+        background-color: #121212;
+    }
+
+    .second .gallery .margin {
+/*        margin-top: 15vh;*/
+    } 
+    
+    .second h3 {
+        margin-top: 10vh;
+    }
+    
+    
+    .third {
+        height: 100vh;
+        background: url(img/okosvarosok-kora.jpg)no-repeat center center fixed;
+        margin-top: 115vh;
+        padding-bottom: 95vh;
+        font-family: 'Orbitron';
+        color: white;
+        text-shadow: 2px 2px 2px rgba(0,0,0,0.2);        
+    }
+    
+    .third .container {
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .third .container .tab {
+        width: 85%;
+        border: 1px solid #121212;
+        margin: 0 auto;
+        border-radius: 15px;
+        background: #121212;
+    } 
+    
+    .third .container .tab .first {
+        color: #2084E6;
+    }    
+    
+    .third .container h1 {
+        text-align: center;
+        padding-top: 10vh;
+    }    
+    
+    .third .container .dest {
+        border: 1px solid #121212;
+        width: 70%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 0 auto;
+    }
+    
+    .third .container .dest div {
+        border: 1px solid #121212;
+    }
+    
+    .third .container .dest .fa {
+        padding-left: 1vh;
+        padding-right: 1vh;
+    }    
+    
+    .third .container .btn {
+        margin: 0 auto;
+        border: 1px solid #2084E6;
+        border-radius: 10px;
+        background: #2084E6;
+        cursor: pointer;
+        width: 12vh;
+        padding-top: 0.5vh;
+        padding-bottom: 0.5vh;
+        margin-bottom: 0.5vh;    
+    }
+        
+    .fourth {
+        height: 70vh;
+        font-family: 'Orbitron';
+        color: white;
+        text-shadow: 2px 2px 2px rgba(0,0,0,0.2);  
+        margin-top: 45vh;
+        padding-bottom: 20vh;
+    }  
+    
+    .fourth h1 {
+        text-align: center;       
+    }
+    
+    .fourth .wrapper {
+        display: grid;
+        justify-items: center;
+    }
+    
+    .fourth .form {
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+/*
+        display: grid;
+        align-items: center;
+        justify-content: end;
+*/
+}
+
+    .fourth .form .formGrp {
+        width: 50vh;
+        border: 1px solid #2084E6;
+        border-radius: 15px;
+        padding: 1vh 1vh 1vh 1vh;
+        background: rgba(11,61,150,0.3);
+}
+
+    .fourth .form .formGrp .flabel {
+        font-size: 10px;
+        display: block;
+}
+
+    .fourth .form .formGrp .slabel {
+        font-size: 10px;
+        display: block;
+}
+
+    .fourth .form .formGrp p {
+        padding: 0;
+        margin: 0;
+}
+
+    .fourth .form .formGrp input[type=text] {
+        height: 3vh;
+        width: 35vh;
+        margin-right: 2vh;
+        padding: 0;
+        font-family: 'Orbitron';
+}
+
+    .fourth .form .formGrp input[type=texts] {
+        height: 3vh;
+        width: 35vh;
+        margin-right: 2vh;
+        padding: 0;
+        font-family: 'Orbitron';
+}
+
+    .fourth .form .formGrp input[type=textm] {
+        height: 9vh;
+        width: 35vh;
+        margin-right: 2vh;
+        padding: 0;
+        font-family: 'Orbitron';
+}
+
+    .fourth .form .formGrp .submitx {
+        height: 3vh;
+        width: 12vh;
+        border-radius: 8px;
+        text-align: center;
+        border: 1px solid #2084E6;
+        background: #2084E6;
+        cursor: pointer;
+        width: 12vh;
+        padding-top: 1vh;
+        padding-bottom: 2vh;
+        margin-bottom: 0.5vh;   
+        line-height: 24px;
+        color: white;
+        display: inline-block;
+}    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @-webkit-keyframes move {
+  0%, 20%, 50%, 80%, 100% {
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -ms-transform: translateY(-20px);
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+  60% {
+    -ms-transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @keyframes move {
+  0%, 20%, 50%, 80%, 100% {
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -ms-transform: translateY(-20px);
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+  60% {
+    -ms-transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+
+    
+    
+}
+
+/*------------------------------Nexus 5X-------------------------*/
+@media screen and (min-height: 650px) and (max-height: 735px) and (max-width: 415px) {
+    
+.fp-section,
+.fp-slide,
+.fp-tableCell{
+    height: auto !important;
+}
+    
+    body {
+        background: url(img/backgroundofspace.jpg) center center fixed;
+        background-repeat: repeat-y;
+        height: 100vh;
+    }        
+    
+    
+    .desktopx {
+        display: none;
+    }
+    
+    .container ul {
+        list-style: none;
+    }
+    
+    .container ul li {
+        padding-top: 0.5vh;
+        padding-bottom: 0.5vh;        
+    }
+    
+    .container ul li a {
+        color: inherit;
+        text-decoration: none;
+    }
+    
+    .container .burger-nav {
+        background-color: #404040;
+    }
+    
+    header {
+        height: 100vh;
+        background: url(img/Elysium-Space-Stars.jpg)no-repeat center center fixed;  
+        background-size: cover;
+    }
+    
+    header .fix {
+        position: fixed;
+    }
+    
+    header .herocontent {
+        text-align: center;
+        color: white;
+        font-family: 'Orbitron';
+        margin-top: 25vh;
+        padding-left: 1vh;
+        padding-right: 1vh;
+    }
+    
+    header .herocontent .fa {
+        color: white;
+        -webkit-animation: move 3s infinite;
+                animation: move 3s infinite;
+    }  
+    
+    .second {
+        height: 100vh;
+/*        background: #060733;*/
+        border: 0;
+        padding: 0;
+    }
+    
+    .second section {
+        text-align: center;
+        color: white;
+        font-family: 'Orbitron';
+    }
+    
+    .second .gallery {
+        text-align: center;
+        border: 1px solid #2084E6;
+        border-radius: 15px;
+        margin-left: 3vh;
+        margin-right: 3vh;
+        background: rgba(18,18,18,0.5);
+        margin-bottom: 1vh;
+        color: white;
+        font-family: 'orbitron';
+    }
+
+    .second .gallery hr {
+        width: 20vh;
+        border-color: #2084E6;
+        background-color: #121212;
+    }
+
+    .second .gallery .margin {
+/*        margin-top: 15vh;*/
+    } 
+    
+    .second h3 {
+        margin-top: 10vh;
+    }
+    
+    
+    .third {
+        height: 100vh;
+        background: url(img/okosvarosok-kora.jpg)no-repeat center center fixed;
+        margin-top: 115vh;
+        padding-bottom: 95vh;
+        font-family: 'Orbitron';
+        color: white;
+        text-shadow: 2px 2px 2px rgba(0,0,0,0.2);        
+    }
+    
+    .third .container {
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .third .container .tab {
+        width: 85%;
+        border: 1px solid #121212;
+        margin: 0 auto;
+        border-radius: 15px;
+        background: #121212;
+    } 
+    
+    .third .container .tab .first {
+        color: #2084E6;
+    }    
+    
+    .third .container h1 {
+        text-align: center;
+        padding-top: 10vh;
+    }    
+    
+    .third .container .dest {
+        border: 1px solid #121212;
+        width: 70%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 0 auto;
+    }
+    
+    .third .container .dest div {
+        border: 1px solid #121212;
+    }
+    
+    .third .container .dest .fa {
+        padding-left: 1vh;
+        padding-right: 1vh;
+    }    
+    
+    .third .container .btn {
+        margin: 0 auto;
+        border: 1px solid #2084E6;
+        border-radius: 10px;
+        background: #2084E6;
+        cursor: pointer;
+        width: 12vh;
+        padding-top: 0.5vh;
+        padding-bottom: 0.5vh;
+        margin-bottom: 0.5vh;    
+    }
+        
+    .fourth {
+        height: 70vh;
+        font-family: 'Orbitron';
+        color: white;
+        text-shadow: 2px 2px 2px rgba(0,0,0,0.2);  
+        margin-top: 45vh;
+        padding-bottom: 20vh;
+    }  
+    
+    .fourth h1 {
+        text-align: center;       
+    }
+    
+    .fourth .wrapper {
+        display: grid;
+        justify-items: center;
+    }
+    
+    .fourth .form {
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+/*
+        display: grid;
+        align-items: center;
+        justify-content: end;
+*/
+}
+
+    .fourth .form .formGrp {
+        width: 50vh;
+        border: 1px solid #2084E6;
+        border-radius: 15px;
+        padding: 1vh 1vh 1vh 1vh;
+        background: rgba(11,61,150,0.3);
+}
+
+    .fourth .form .formGrp .flabel {
+        font-size: 10px;
+        display: block;
+}
+
+    .fourth .form .formGrp .slabel {
+        font-size: 10px;
+        display: block;
+}
+
+    .fourth .form .formGrp p {
+        padding: 0;
+        margin: 0;
+}
+
+    .fourth .form .formGrp input[type=text] {
+        height: 3vh;
+        width: 35vh;
+        margin-right: 2vh;
+        padding: 0;
+        font-family: 'Orbitron';
+}
+
+    .fourth .form .formGrp input[type=texts] {
+        height: 3vh;
+        width: 35vh;
+        margin-right: 2vh;
+        padding: 0;
+        font-family: 'Orbitron';
+}
+
+    .fourth .form .formGrp input[type=textm] {
+        height: 9vh;
+        width: 35vh;
+        margin-right: 2vh;
+        padding: 0;
+        font-family: 'Orbitron';
+}
+
+    .fourth .form .formGrp .submitx {
+        height: 3vh;
+        width: 12vh;
+        border-radius: 8px;
+        text-align: center;
+        border: 1px solid #2084E6;
+        background: #2084E6;
+        cursor: pointer;
+        width: 12vh;
+        padding-top: 1vh;
+        padding-bottom: 2vh;
+        margin-bottom: 0.5vh;   
+        line-height: 24px;
+        color: white;
+        display: inline-block;
+}    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @-webkit-keyframes move {
+  0%, 20%, 50%, 80%, 100% {
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -ms-transform: translateY(-20px);
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+  60% {
+    -ms-transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @keyframes move {
+  0%, 20%, 50%, 80%, 100% {
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -ms-transform: translateY(-20px);
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+  60% {
+    -ms-transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+
+    
+    
+}
+
 
 
 
