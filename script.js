@@ -1,6 +1,6 @@
-var name;
-var mail;
-var message;
+//var name;
+//var mail;
+//var message;
 
 $(document).ready(function() {
 	$('#fullpage').fullpage({
@@ -8,7 +8,7 @@ $(document).ready(function() {
         controlArrows: true,
         navigation: true,
         menu: '#menu',
-        anchors: ['pageone', 'pagetwo', 'pagethree', 'pagefour', 'pagefive', 'second'],
+        anchors: ['pageone', 'pagetwo', 'pagethree', 'pagefour', 'pagefive'],
         responsiveWidth: 947
     }); 
     
@@ -70,6 +70,9 @@ $(document).ready(function() {
     
     
     $('.submit').click(function(){
+        var name;
+        var mail;
+        var message;        
         name = $('input[type=text]').val();
         if (name.length === 0){
             $('.formNm').css('color','red');
@@ -99,4 +102,38 @@ $(document).ready(function() {
             $('.formNMsg').html('');
         }
     });
+    
+    $('.submitb').click(function(){
+        var name;
+        var mail;
+        var message;
+        name = $('input[type=textb]').val();
+        if (name.length === 0){
+            $('.formNmb').css('color','red');
+        } else {
+            $('.formNmb').css('color','white');
+        }
+        
+        mail = $('input[type=textsb]').val();
+        if (mail.length === 0 || mail.indexOf('@') == -1){
+            $('.formNmailb').css('color','red');
+        } else {
+            $('.formNmailb').css('color','white');
+        }        
+        
+        message = $('input[type=textmb]').val();
+        if (message.length === 0){
+            $('.formNMsgb').css('color','red');
+        } else {
+            $('.formNMsgb').css('color','white');
+        }
+        
+        if(message.length !== 0 && mail.length !== 0 && name.length !== 0 && mail.indexOf('@') !== -1){
+            $('#sentb').html('Sent');
+            $('.submitb').css('display','none');
+            $('.formNmailb').html('');
+            $('.formNmb').html('');
+            $('.formNMsgb').html('');
+        }
+    });    
 });
