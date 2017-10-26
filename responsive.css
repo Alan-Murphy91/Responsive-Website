@@ -21,7 +21,7 @@ html, body {
     
     
     
-   .fp-section,
+.fp-section,
 .fp-slide,
 .fp-tableCell{
     height: auto !important;
@@ -184,8 +184,7 @@ html, body {
     }
         
     .fourth {
-        min-height:100%;
-/*        height: 70vh;*/
+        height: 400px;
         font-family: 'Orbitron';
         color: white;
         text-shadow: 2px 2px 2px rgba(0,0,0,0.2);  
@@ -200,7 +199,7 @@ html, body {
     .fourth .wrapper {
         display: grid;
         justify-items: center;
-        position: fixed;
+        width: auto;
     }
     
     .fourth .form {
@@ -214,7 +213,7 @@ html, body {
 }
 
     .fourth .form .formGrp {
-        width: 30vh;
+        width: 225px;
         border: 1px solid #2084E6;
         border-radius: 15px;
         padding: 1vh 1vh 1vh 1vh;
@@ -237,45 +236,45 @@ html, body {
 }
 
     .fourth .form .formGrp input[type=text] {
-        height: 3vh;
-        width: 27vh;
-        margin-right: 2vh;
+        height: 30px;
+        width: 200px;
+        margin-right: 5px;
         padding: 0;
         font-family: 'Orbitron';
 }
 
     .fourth .form .formGrp input[type=texts] {
-        height: 3vh;
-        width: 27vh;
-        margin-right: 2vh;
+        height: 30px;
+        width: 200px;
+        margin-right: 5px;
         padding: 0;
         font-family: 'Orbitron';
 }
 
     .fourth .form .formGrp input[type=textm] {
-        height: 9vh;
-        width: 27vh;
-        margin-right: 2vh;
+        height: 300px;
+        width: 220px;
+        margin-right: 5px;
         padding: 0;
         font-family: 'Orbitron';
 }
 
     .submit {
-        height: 3vh;
-        width: 12vh;
+        height: 15px;
+        width: 15px;
         border-radius: 8px;
         text-align: center;
         border: 1px solid #2084E6;
-        background: #2084E6;
+        background-color: #2084E6;
         cursor: pointer;
         width: 12vh;
-        padding-top: 1vh;
-        padding-bottom: 1vh;
+        padding-top: 0.5vh;
+        padding-bottom: 0.5vh;
         margin-bottom: 0.5vh;   
-        line-height: 24px;
+        line-height: 13px;
         color: white;
         display: inline-block;
-}    
+}       
 
     @-webkit-keyframes move {
   0%, 20%, 50%, 80%, 100% {
@@ -494,8 +493,7 @@ html, body {
     }
         
     .fourth {
-        min-height:100%;
-/*        height: 70vh;*/
+        height: 400px;
         font-family: 'Orbitron';
         color: white;
         text-shadow: 2px 2px 2px rgba(0,0,0,0.2);  
@@ -510,6 +508,7 @@ html, body {
     .fourth .wrapper {
         display: grid;
         justify-items: center;
+        width: auto;
     }
     
     .fourth .form {
@@ -523,7 +522,7 @@ html, body {
 }
 
     .fourth .form .formGrp {
-        width: 30vh;
+        width: 280px;
         border: 1px solid #2084E6;
         border-radius: 15px;
         padding: 1vh 1vh 1vh 1vh;
@@ -546,32 +545,32 @@ html, body {
 }
 
     .fourth .form .formGrp input[type=text] {
-        height: 3vh;
-        width: 27vh;
-        margin-right: 2vh;
+        height: 30px;
+        width: 200px;
+        margin-right: 5px;
         padding: 0;
         font-family: 'Orbitron';
 }
 
     .fourth .form .formGrp input[type=texts] {
-        height: 3vh;
-        width: 27vh;
-        margin-right: 2vh;
+        height: 30px;
+        width: 200px;
+        margin-right: 5px;
         padding: 0;
         font-family: 'Orbitron';
 }
 
     .fourth .form .formGrp input[type=textm] {
-        height: 9vh;
-        width: 27vh;
-        margin-right: 2vh;
+        height: 300px;
+        width: 260px;
+        margin-right: 5px;
         padding: 0;
         font-family: 'Orbitron';
 }
 
     .submit {
-        height: 3vh;
-        width: 12vh;
+        height: 15px;
+        width: 30px;
         border-radius: 8px;
         text-align: center;
         border: 1px solid #2084E6;
@@ -581,7 +580,7 @@ html, body {
         padding-top: 0.5vh;
         padding-bottom: 0.5vh;
         margin-bottom: 0.5vh;   
-        line-height: 24px;
+        line-height: 13px;
         color: white;
         display: inline-block;
 }    
@@ -623,318 +622,6 @@ html, body {
 }
    
 } 
-
-
-
-@media only screen and (min-width:577px) and (max-width:768px){
-    
-    
-.menu-list a {
-  color: #C6D2D6;
-  text-decoration: none;
-  font-size: 18px;
-  display: inline-block;
-  margin: 15px 0;
-  -webkit-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}    
-    
-    
-    
-.fp-section,
-.fp-slide,
-.fp-tableCell{
-    height: auto !important;
-}
-    
-    body {
-        background: url(img/backgroundofspace.jpg) center center fixed;
-        background-repeat: repeat-y;
-        height: 100vh;
-        font-size: 0.90em;
-    }        
-    
-    
-    .desktopx {
-        display: none;
-    }
-    
-    .container ul {
-        list-style: none;
-    }
-    
-    .container ul li {
-        padding-top: 0.5vh;
-        padding-bottom: 0.5vh;        
-    }
-    
-    .container ul li a {
-        color: inherit;
-        text-decoration: none;
-    }
-    
-    .container .burger-nav {
-        background-color: #404040;
-    }
-    
-    header {
-        height: 100vh;
-        background: url(img/Elysium-Space-Stars.jpg)no-repeat center center fixed;  
-        background-size: cover;
-    }
-    
-    header .fix {
-        position: fixed;
-    }
-    
-    header .herocontent {
-        text-align: center;
-        color: white;
-        font-family: 'Orbitron';
-        margin-top: 25vh;
-        padding-left: 1vh;
-        padding-right: 1vh;
-    }
-    
-    header .herocontent .fa {
-        color: white;
-        -webkit-animation: move 3s infinite;
-                animation: move 3s infinite;
-    }  
-    
-    .second {
-        height: 100vh;
-/*        background: #060733;*/
-        border: 0;
-        padding: 0;
-    }
-    
-    .second section {
-        text-align: center;
-        color: white;
-        font-family: 'Orbitron';
-    }
-    
-    .second .gallery {
-        text-align: center;
-        border: 1px solid #2084E6;
-        border-radius: 15px;
-        margin-left: 3vh;
-        margin-right: 3vh;
-        background: rgba(18,18,18,0.5);
-        margin-bottom: 1vh;
-        color: white;
-        font-family: 'orbitron';
-    }
-
-    .second .gallery hr {
-        width: 15vh;
-        border-color: #2084E6;
-        background-color: #121212;
-    }
-
-    .second .gallery .margin {
-/*        margin-top: 15vh;*/
-    } 
-    
-    .second h3 {
-        margin-top: 10vh;
-    }
-    
-    
-    .third {
-        height: 100vh;
-        background: url(img/okosvarosok-kora.jpg)no-repeat center center fixed;
-        margin-top: 115vh;
-        padding-bottom: 95vh;
-        font-family: 'Orbitron';
-        color: white;
-        text-shadow: 2px 2px 2px rgba(0,0,0,0.2);        
-    }
-    
-    .third .container {
-        margin: 0 auto;
-        text-align: center;
-    }
-    
-    .third .container .tab {
-        width: 85%;
-        border: 1px solid #121212;
-        margin: 0 auto;
-        border-radius: 15px;
-        background: #121212;
-    } 
-    
-    .third .container .tab .first {
-        color: #2084E6;
-    }    
-    
-    .third .container h1 {
-        text-align: center;
-        padding-top: 10vh;
-    }    
-    
-    .third .container .dest {
-        border: 1px solid #121212;
-        width: 70%;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        margin: 0 auto;
-    }
-    
-    .third .container .dest div {
-        border: 1px solid #121212;
-    }
-    
-    .third .container .dest .fa {
-        padding-left: 1vh;
-        padding-right: 1vh;
-    }    
-    
-    .third .container .btn {
-        margin: 0 auto;
-        border: 1px solid #2084E6;
-        border-radius: 10px;
-        background: #2084E6;
-        cursor: pointer;
-        width: 12vh;
-        padding-top: 0.5vh;
-        padding-bottom: 0.5vh;
-        margin-bottom: 0.5vh;    
-    }
-        
-    .fourth {
-        min-height:100%;
-/*        height: 70vh;*/
-        font-family: 'Orbitron';
-        color: white;
-        text-shadow: 2px 2px 2px rgba(0,0,0,0.2);  
-        margin-top: 45vh;
-        padding-bottom: 20vh;
-    }  
-    
-    .fourth h1 {
-        text-align: center;       
-    }
-    
-    .fourth .wrapper {
-        display: grid;
-        justify-items: center;
-    }
-    
-    .fourth .form {
-        padding-top: 5vh;
-        padding-bottom: 5vh;
-/*
-        display: grid;
-        align-items: center;
-        justify-content: end;
-*/
-}
-
-    .fourth .form .formGrp {
-        width: 30vh;
-        border: 1px solid #2084E6;
-        border-radius: 15px;
-        padding: 1vh 1vh 1vh 1vh;
-        background: rgba(11,61,150,0.3);
-}
-
-    .fourth .form .formGrp .flabel {
-        font-size: 10px;
-        display: block;
-}
-
-    .fourth .form .formGrp .slabel {
-        font-size: 10px;
-        display: block;
-}
-
-    .fourth .form .formGrp p {
-        padding: 0;
-        margin: 0;
-}
-
-    .fourth .form .formGrp input[type=text] {
-        height: 3vh;
-        width: 27vh;
-        margin-right: 2vh;
-        padding: 0;
-        font-family: 'Orbitron';
-}
-
-    .fourth .form .formGrp input[type=texts] {
-        height: 3vh;
-        width: 27vh;
-        margin-right: 2vh;
-        padding: 0;
-        font-family: 'Orbitron';
-}
-
-    .fourth .form .formGrp input[type=textm] {
-        height: 9vh;
-        width: 27vh;
-        margin-right: 2vh;
-        padding: 0;
-        font-family: 'Orbitron';
-}
-
-    .submit {
-        height: 3vh;
-        width: 12vh;
-        border-radius: 8px;
-        text-align: center;
-        border: 1px solid #2084E6;
-        background-color: #2084E6;
-        cursor: pointer;
-        width: 12vh;
-        padding-top: 0.5vh;
-        padding-bottom: 0.5vh;
-        margin-bottom: 0.5vh;   
-        line-height: 24px;
-        color: white;
-        display: inline-block;
-}    
-
-    @-webkit-keyframes move {
-  0%, 20%, 50%, 80%, 100% {
-    -ms-transform: translateY(0);
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-  40% {
-    -ms-transform: translateY(-20px);
-    -webkit-transform: translateY(-20px);
-    transform: translateY(-20px);
-  }
-  60% {
-    -ms-transform: translateY(-10px);
-    -webkit-transform: translateY(-10px);
-    transform: translateY(-10px);
-  }
-}    
-
-    @keyframes move {
-  0%, 20%, 50%, 80%, 100% {
-    -ms-transform: translateY(0);
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-  40% {
-    -ms-transform: translateY(-20px);
-    -webkit-transform: translateY(-20px);
-    transform: translateY(-20px);
-  }
-  60% {
-    -ms-transform: translateY(-10px);
-    -webkit-transform: translateY(-10px);
-    transform: translateY(-10px);
-  }
-}
-   
-} 
-
 
 @media only screen and (min-width:481px) and (max-width:576px){
     
@@ -1115,8 +802,7 @@ html, body {
     }
         
     .fourth {
-        min-height:100%;
-/*        height: 70vh;*/
+        height: 400px;
         font-family: 'Orbitron';
         color: white;
         text-shadow: 2px 2px 2px rgba(0,0,0,0.2);  
@@ -1131,6 +817,7 @@ html, body {
     .fourth .wrapper {
         display: grid;
         justify-items: center;
+        width: auto;
     }
     
     .fourth .form {
@@ -1144,7 +831,7 @@ html, body {
 }
 
     .fourth .form .formGrp {
-        width: 30vh;
+        width: 380px;
         border: 1px solid #2084E6;
         border-radius: 15px;
         padding: 1vh 1vh 1vh 1vh;
@@ -1167,32 +854,32 @@ html, body {
 }
 
     .fourth .form .formGrp input[type=text] {
-        height: 3vh;
-        width: 27vh;
-        margin-right: 2vh;
+        height: 30px;
+        width: 200px;
+        margin-right: 5px;
         padding: 0;
         font-family: 'Orbitron';
 }
 
     .fourth .form .formGrp input[type=texts] {
-        height: 3vh;
-        width: 27vh;
-        margin-right: 2vh;
+        height: 30px;
+        width: 200px;
+        margin-right: 5px;
         padding: 0;
         font-family: 'Orbitron';
 }
 
     .fourth .form .formGrp input[type=textm] {
-        height: 9vh;
-        width: 27vh;
-        margin-right: 2vh;
+        height: 300px;
+        width: 320px;
+        margin-right: 5px;
         padding: 0;
         font-family: 'Orbitron';
 }
 
     .submit {
-        height: 3vh;
-        width: 12vh;
+        height: 15px;
+        width: 30px;
         border-radius: 8px;
         text-align: center;
         border: 1px solid #2084E6;
@@ -1202,7 +889,7 @@ html, body {
         padding-top: 0.5vh;
         padding-bottom: 0.5vh;
         margin-bottom: 0.5vh;   
-        line-height: 24px;
+        line-height: 13px;
         color: white;
         display: inline-block;
 }    
@@ -1427,8 +1114,7 @@ html, body {
     }
         
     .fourth {
-        min-height:100%;
-/*        height: 70vh;*/
+        height: 400px;
         font-family: 'Orbitron';
         color: white;
         text-shadow: 2px 2px 2px rgba(0,0,0,0.2);  
@@ -1443,6 +1129,7 @@ html, body {
     .fourth .wrapper {
         display: grid;
         justify-items: center;
+        width: auto;
     }
     
     .fourth .form {
@@ -1456,7 +1143,7 @@ html, body {
 }
 
     .fourth .form .formGrp {
-        width: 30vh;
+        width: 340px;
         border: 1px solid #2084E6;
         border-radius: 15px;
         padding: 1vh 1vh 1vh 1vh;
@@ -1479,32 +1166,32 @@ html, body {
 }
 
     .fourth .form .formGrp input[type=text] {
-        height: 3vh;
-        width: 27vh;
-        margin-right: 2vh;
+        height: 30px;
+        width: 200px;
+        margin-right: 5px;
         padding: 0;
         font-family: 'Orbitron';
 }
 
     .fourth .form .formGrp input[type=texts] {
-        height: 3vh;
-        width: 27vh;
-        margin-right: 2vh;
+        height: 30px;
+        width: 200px;
+        margin-right: 5px;
         padding: 0;
         font-family: 'Orbitron';
 }
 
     .fourth .form .formGrp input[type=textm] {
-        height: 9vh;
-        width: 27vh;
-        margin-right: 2vh;
+        height: 300px;
+        width: 320px;
+        margin-right: 5px;
         padding: 0;
         font-family: 'Orbitron';
 }
 
     .submit {
-        height: 3vh;
-        width: 12vh;
+        height: 15px;
+        width: 30px;
         border-radius: 8px;
         text-align: center;
         border: 1px solid #2084E6;
@@ -1514,10 +1201,10 @@ html, body {
         padding-top: 0.5vh;
         padding-bottom: 0.5vh;
         margin-bottom: 0.5vh;   
-        line-height: 24px;
+        line-height: 13px;
         color: white;
         display: inline-block;
-}    
+}     
 
     @-webkit-keyframes move {
   0%, 20%, 50%, 80%, 100% {
@@ -1556,6 +1243,8 @@ html, body {
 }
    
 } 
+
+
 
 
 @media only screen and (min-width:769px) and (max-width:946px){
@@ -1737,8 +1426,7 @@ html, body {
     }
         
     .fourth {
-        min-height:100%;
-/*        height: 70vh;*/
+        height: 400px;
         font-family: 'Orbitron';
         color: white;
         text-shadow: 2px 2px 2px rgba(0,0,0,0.2);  
@@ -1753,6 +1441,7 @@ html, body {
     .fourth .wrapper {
         display: grid;
         justify-items: center;
+        width: auto;
     }
     
     .fourth .form {
@@ -1766,7 +1455,7 @@ html, body {
 }
 
     .fourth .form .formGrp {
-        width: 30vh;
+        width: 370px;
         border: 1px solid #2084E6;
         border-radius: 15px;
         padding: 1vh 1vh 1vh 1vh;
@@ -1789,32 +1478,32 @@ html, body {
 }
 
     .fourth .form .formGrp input[type=text] {
-        height: 3vh;
-        width: 27vh;
-        margin-right: 2vh;
+        height: 30px;
+        width: 200px;
+        margin-right: 5px;
         padding: 0;
         font-family: 'Orbitron';
 }
 
     .fourth .form .formGrp input[type=texts] {
-        height: 3vh;
-        width: 27vh;
-        margin-right: 2vh;
+        height: 30px;
+        width: 200px;
+        margin-right: 5px;
         padding: 0;
         font-family: 'Orbitron';
 }
 
     .fourth .form .formGrp input[type=textm] {
-        height: 9vh;
-        width: 27vh;
-        margin-right: 2vh;
+        height: 300px;
+        width: 340px;
+        margin-right: 5px;
         padding: 0;
         font-family: 'Orbitron';
 }
 
     .submit {
-        height: 3vh;
-        width: 12vh;
+        height: 15px;
+        width: 30px;
         border-radius: 8px;
         text-align: center;
         border: 1px solid #2084E6;
@@ -1824,10 +1513,10 @@ html, body {
         padding-top: 0.5vh;
         padding-bottom: 0.5vh;
         margin-bottom: 0.5vh;   
-        line-height: 24px;
+        line-height: 13px;
         color: white;
         display: inline-block;
-}    
+}     
 
     @-webkit-keyframes move {
   0%, 20%, 50%, 80%, 100% {
