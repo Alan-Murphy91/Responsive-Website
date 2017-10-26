@@ -27,7 +27,6 @@
   z-index: 9999;
   cursor: pointer;
   background: transparent;
-
 }
 
 .hamburger-menu:focus { outline: none; }
