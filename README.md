@@ -1,3 +1,7 @@
+Hosted location -> https://alan-murphy91.github.io/Responsive-Website/
+
+
+
 # Website explanation
 This website is my submission for the final project of stream one. It is the front end design of a website for a fictitious entity named
 'Omicron Technologies' that specialise in interstellar private charter. Set in the distance future, this site would be akin to a modern day
