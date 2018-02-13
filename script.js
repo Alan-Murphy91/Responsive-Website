@@ -9,7 +9,7 @@ $(document).ready(function() {
         navigation: true,
         menu: '#menu',
         anchors: ['pageone', 'pagetwo', 'pagethree', 'pagefour', 'pagefive'],
-        responsiveWidth: 947
+        responsiveWidth: 947,
     }); 
     
   $('.hamburger-menu').click(function (e) {

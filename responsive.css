@@ -129,8 +129,8 @@ html, body {
     .third {
         height: 100vh;
         background: url(img/okosvarosok-kora.jpg)no-repeat center center fixed;
-        margin-top: 115vh;
-        padding-bottom: 100vh;
+        margin-top: 200px;
+        padding-bottom: 50px;
         font-family: 'Orbitron';
         color: white;
         text-shadow: 2px 2px 2px rgba(0,0,0,0.2);        
@@ -181,10 +181,11 @@ html, body {
         border-radius: 10px;
         background: #2084E6;
         cursor: pointer;
-        width: 12vh;
-        padding-top: 0.5vh;
-        padding-bottom: 0.5vh;
-        margin-bottom: 0.5vh;    
+        height: 15px;
+        width: 55px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-bottom: 5px;    
     }
         
     .fourth {
@@ -192,8 +193,8 @@ html, body {
         font-family: 'Orbitron';
         color: white;
         text-shadow: 2px 2px 2px rgba(0,0,0,0.2);  
-        margin-top: 45vh;
-        padding-bottom: 20vh;
+        margin-top: 200px;
+        padding-bottom: 100px;
     }  
     
     .fourth h1 {
@@ -265,13 +266,12 @@ html, body {
 
     .submit {
         height: 15px;
-        width: 15px;
+        width: 55px;
         border-radius: 8px;
         text-align: center;
         border: 1px solid #2084E6;
         background-color: #2084E6;
         cursor: pointer;
-        width: 12vh;
         padding-top: 5px;
         padding-bottom: 5px;
         margin-bottom: 5px;   
@@ -438,8 +438,8 @@ html, body {
     .third {
         height: 100vh;
         background: url(img/okosvarosok-kora.jpg)no-repeat center center fixed;
-        margin-top: 115vh;
-        padding-bottom: 100vh;
+        margin-top: 50px;
+        padding-bottom: 25px;
         font-family: 'Orbitron';
         color: white;
         text-shadow: 2px 2px 2px rgba(0,0,0,0.2);        
@@ -490,10 +490,11 @@ html, body {
         border-radius: 10px;
         background: #2084E6;
         cursor: pointer;
-        width: 12vh;
-        padding-top: 0.5vh;
-        padding-bottom: 0.5vh;
-        margin-bottom: 0.5vh;    
+        height: 15px;
+        width: 75px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-bottom: 5px;     
     }
         
     .fourth {
@@ -501,8 +502,8 @@ html, body {
         font-family: 'Orbitron';
         color: white;
         text-shadow: 2px 2px 2px rgba(0,0,0,0.2);  
-        margin-top: 45vh;
-        padding-bottom: 20vh;
+        margin-top: 50px;
+        padding-bottom: 20px;
     }  
     
     .fourth h1 {
@@ -574,13 +575,12 @@ html, body {
 
     .submit {
         height: 15px;
-        width: 30px;
+        width: 65px;
         border-radius: 8px;
         text-align: center;
         border: 1px solid #2084E6;
         background-color: #2084E6;
         cursor: pointer;
-        width: 12vh;
         padding-top: 5px;
         padding-bottom: 5px;
         margin-bottom: 5px;   
@@ -747,8 +747,8 @@ html, body {
     .third {
         height: 100vh;
         background: url(img/okosvarosok-kora.jpg)no-repeat center center fixed;
-        margin-top: 115vh;
-        padding-bottom: 95vh;
+        margin-top: 50px;
+        padding-bottom: 50px;
         font-family: 'Orbitron';
         color: white;
         text-shadow: 2px 2px 2px rgba(0,0,0,0.2);        
@@ -799,10 +799,11 @@ html, body {
         border-radius: 10px;
         background: #2084E6;
         cursor: pointer;
-        width: 12vh;
-        padding-top: 0.5vh;
-        padding-bottom: 0.5vh;
-        margin-bottom: 0.5vh;    
+        height: 15px;
+        width: 75px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-bottom: 5px;     
     }
         
     .fourth {
@@ -810,8 +811,8 @@ html, body {
         font-family: 'Orbitron';
         color: white;
         text-shadow: 2px 2px 2px rgba(0,0,0,0.2);  
-        margin-top: 45vh;
-        padding-bottom: 20vh;
+        margin-top: 30px;
+        padding-bottom: 15px;
     }  
     
     .fourth h1 {
@@ -883,13 +884,12 @@ html, body {
 
     .submit {
         height: 15px;
-        width: 30px;
+        width: 75px;
         border-radius: 8px;
         text-align: center;
         border: 1px solid #2084E6;
         background-color: #2084E6;
         cursor: pointer;
-        width: 12vh;
         padding-top: 0.5vh;
         padding-bottom: 0.5vh;
         margin-bottom: 0.5vh;   
@@ -1059,8 +1059,8 @@ html, body {
     .third {
         height: 100vh;
         background: url(img/okosvarosok-kora.jpg)no-repeat center center fixed;
-        margin-top: 115vh;
-        padding-bottom: 95vh;
+        margin-top: 50px;
+        padding-bottom: 50px;
         font-family: 'Orbitron';
         color: white;
         text-shadow: 2px 2px 2px rgba(0,0,0,0.2);        
@@ -1111,10 +1111,11 @@ html, body {
         border-radius: 10px;
         background: #2084E6;
         cursor: pointer;
-        width: 12vh;
-        padding-top: 0.5vh;
-        padding-bottom: 0.5vh;
-        margin-bottom: 0.5vh;    
+        height: 15px;
+        width: 85px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-bottom:5px;    
     }
         
     .fourth {
@@ -1122,8 +1123,8 @@ html, body {
         font-family: 'Orbitron';
         color: white;
         text-shadow: 2px 2px 2px rgba(0,0,0,0.2);  
-        margin-top: 45vh;
-        padding-bottom: 20vh;
+        margin-top: 50px;
+        padding-bottom: 20px;
     }  
     
     .fourth h1 {
@@ -1194,14 +1195,13 @@ html, body {
 }
 
     .submit {
-        height: 15px;
-        width: 30px;
         border-radius: 8px;
         text-align: center;
         border: 1px solid #2084E6;
         background-color: #2084E6;
         cursor: pointer;
-        width: 12vh;
+        height: 15px;
+        width: 75px;
         padding-top: 0.5vh;
         padding-bottom: 0.5vh;
         margin-bottom: 0.5vh;   
@@ -1371,8 +1371,8 @@ html, body {
     .third {
         height: 100vh;
         background: url(img/okosvarosok-kora.jpg)no-repeat center center fixed;
-        margin-top: 115vh;
-        padding-bottom: 95vh;
+        margin-top: 200px;
+        padding-bottom: 200px;
         font-family: 'Orbitron';
         color: white;
         text-shadow: 2px 2px 2px rgba(0,0,0,0.2);        
@@ -1423,10 +1423,11 @@ html, body {
         border-radius: 10px;
         background: #2084E6;
         cursor: pointer;
-        width: 12vh;
-        padding-top: 0.5vh;
-        padding-bottom: 0.5vh;
-        margin-bottom: 0.5vh;    
+        height: 15px;
+        width: 75px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-bottom: 5px;    
     }
         
     .fourth {
@@ -1434,8 +1435,8 @@ html, body {
         font-family: 'Orbitron';
         color: white;
         text-shadow: 2px 2px 2px rgba(0,0,0,0.2);  
-        margin-top: 45vh;
-        padding-bottom: 20vh;
+        margin-top: 200px;
+        padding-bottom: 50px;
     }  
     
     .fourth h1 {
@@ -1507,13 +1508,12 @@ html, body {
 
     .submit {
         height: 15px;
-        width: 30px;
+        width: 75px;
         border-radius: 8px;
         text-align: center;
         border: 1px solid #2084E6;
         background-color: #2084E6;
         cursor: pointer;
-        width: 12vh;
         padding-top: 0.5vh;
         padding-bottom: 0.5vh;
         margin-bottom: 0.5vh;   
