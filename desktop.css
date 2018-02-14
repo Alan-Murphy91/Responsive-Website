@@ -816,14 +816,13 @@
     }
     
     #page4 .container {
-        height: 700px;
+        /* height: 500px; */
         width: 100vh;
         margin: 0 auto;
         display: grid;
         grid-template-columns: 1fr 0.2fr 1fr 0.2fr 1fr;
         /* margin-bottom: 10vh; */
         font-size: 14px;
-        margin-right: 250px;
     }
     
     #page4 .headCont {
