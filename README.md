@@ -21,9 +21,6 @@ The entirety of the container system in use in this website is structured by CSS
 on using it for the forseeable future where possible. This framework has allowed me to align content which required very precise positioning
 such as the 'on-demand' pages on desktop and mobile. Alongside the use of viewport height (vh) I was able to quickly re-purpose the code
 on mobile to desktop and vice versa.
-  --edit
-  Having now finished my three projects and coming back to review before submission I would have instead used a grid system like
-  bootstrap which makes life a bit easier were I to start again. 
 
 -Plugins<br/>
 I have used two major external CSS features on this website to achieve the design I had in mind at the outset. The first is Alvaro Trigo's 
